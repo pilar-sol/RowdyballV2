@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="24dp" />
+            <size android:height="24dp" /> <!-- Change this value to adjust the thickness -->
+            <solid android:color="#F35421" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp" />
+                <size android:height="15dp" /> <!-- Change this value to adjust the thickness -->
+                <solid android:color="#F35421" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp" />
+                <size android:height="15dp" /> <!-- Change this value to adjust the thickness -->
+                <solid android:color="#101947" /> <!-- Change this color to the desired progress color -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

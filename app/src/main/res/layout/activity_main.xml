@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Rowdy Ball Background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rowdy_background" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="49dp"
+        android:fontFamily="@font/merchandise_font"
+        android:text="RowdyBall"
+        android:textColor="@android:color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/slideToPlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="87dp"
+        android:fontFamily="@font/merchandise_font"
+        android:text="Slide to play"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <SeekBar
+        android:id="@+id/slideToPlaySeekBar"
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="559dp"
+        android:layout_marginEnd="9dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:splitTrack="false"
+        android:thumb="@drawable/seekbar_thumb" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="395dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="54dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/Introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/merchandise_font"
+            android:text="Welcome Rowdy Roadrunners, discover the unknown"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/babyblue"
+        android:fontFamily="@font/merchandise_font"
+        android:text="Info"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/musicButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/merchandise_font"
+        android:text="Music"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</RelativeLayout>
